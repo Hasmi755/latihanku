@@ -1,8 +1,13 @@
 .container {
     background-color: grey;
     margin-top: 20px;
-    height: 100%;
-    border-radius: 8px;
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+    width: 74em;
+}
+
+.container-web {
+
 }
 
 header {
@@ -16,6 +21,7 @@ header {
     background-color: rgb(7, 12, 10);
     border: 1px solid black;
     border-radius: 5px;
+    margin-right: 3em;
 }
 
 .nav-item {
@@ -32,17 +38,21 @@ header {
     margin-bottom: -3px;
 }
 
-.container-web {
-    background-color: grey;
-    margin-top: 20px;
-    height: 100%;
-    border-radius: 8px;
+.row-w3-padding-31 {
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
 }
 
-.container-web-isi {
-    padding-left: 1em;
+.w3-padding-32 {
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+    display: flex;
+    text-align: center;
 }
 
+.message-me {
+    
+}
 h1 {
     color: white;
 }
@@ -55,7 +65,7 @@ h2 {
 }
 
 p {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .nav-bar:last-child {
     border-right: none;
@@ -77,44 +87,6 @@ p {
 .hero {
     height: 550px;
     background-image: "/gambar/person-g06901cc2b_1920-removebg-preview.png";
-}
-
-.wrapper {
-    display: flex;
-}
-
-.headquarters-image-container {
-    background-color: rgb(47, 47, 61);
-    border-radius: 2em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin :30px;
-    margin-top: 0 1em;
-    padding-top: 30px;
-    width: 200px;
-    justify-content: center;
-    height: 200px;
-}
-
-.headquarters-image {
-    height: 5em;
-    width: 5em;
-}
-
-.gambar {
-    width: 100%;
-    border-radius: 8px;
-    height: 70px;
-    width: 100px;
-    margin-left: -06px;
-}
-
-img {
-    /* overflow-clip-margin: content-box; */
-    overflow: clip;
-    width: 480px;
-    height: 480px;
 }
 
 form {
@@ -149,17 +121,16 @@ input[type="submit"]:hover {
 }
 
 #result {
-    margin-top: 20px;
-    border: 1px solid #ccc;
     padding: 10px;
 }
 
 footer {
     content: center;
     color: rgb(255, 255, 255);
-    background-color: black;
+    background: black;
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
     font-size: 1px -1em;
+    text-align: center;
 }
